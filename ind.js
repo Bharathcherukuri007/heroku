@@ -5,7 +5,7 @@ const cors = require('cors')
 const morgan = require('morgan')
 
 const app = express()
-const Person = require('./src/person')
+const Person = require('./person')
 const port = "3001";
 
 
@@ -105,6 +105,7 @@ const errorHandler = (error, req, res, next) => {
   next(error)
 }
 app.use(errorHandler)
+app.use(express.static('build'))
 
 
 app.listen(port, () => {
