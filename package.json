@@ -20,12 +20,10 @@
   },
   "scripts": {
     "start": "node ind.js",
-    "build": "cd client && npm run build",
-    "install-client": "cd client && npm install",
-    "heroku-postbuild":"npm run install-client && npm run build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server -p3001 --watch db.json",
+    "server": "node ind.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
