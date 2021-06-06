@@ -1,6 +1,11 @@
 {
   "persons": [
     {
+      "name": "Arto Hellas",
+      "number": "040-123456",
+      "id": 1
+    },
+    {
       "name": "Ada Lovelace",
       "number": "39-44-5323523",
       "id": 2
@@ -12,77 +17,13 @@
     },
     {
       "name": "Mary Poppendieck",
-      "number": "39-23-6423122",
+      "number": "987456123",
       "id": 4
     },
     {
-      "name": "bh",
-      "number": "123",
-      "id": 5
-    },
-    {
-      "name": "bh",
-      "number": "123",
-      "id": 6
-    },
-    {
-      "name": "bh",
-      "number": "123",
-      "id": 7
-    },
-    {
-      "name": "bha",
-      "number": "123",
-      "id": 8
-    },
-    {
-      "name": "bha",
-      "number": "123",
+      "name": "Data Addition",
+      "number": "123456789",
       "id": 9
-    },
-    {
-      "name": "bha",
-      "number": "1234",
-      "id": 10
-    },
-    {
-      "name": "bha",
-      "number": "789",
-      "id": 11
-    },
-    {
-      "name": "bablu",
-      "number": "123",
-      "id": 13
-    },
-    {
-      "name": "ch",
-      "number": "7890",
-      "id": 14
-    },
-    {
-      "name": "bha",
-      "number": "123",
-      "id": 15
-    },
-    {
-      "number": "1",
-      "id": 16
-    },
-    {
-      "name": "herrt",
-      "number": "123",
-      "id": 17
-    },
-    {
-      "name": "msd",
-      "number": "12",
-      "id": 18
-    },
-    {
-      "name": "msd",
-      "number": "12",
-      "id": 19
     }
   ]
 }
