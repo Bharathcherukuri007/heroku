@@ -105,7 +105,14 @@ const errorHandler = (error, req, res, next) => {
   next(error)
 }
 app.use(errorHandler)
-app.use(express.static('build'))
+app.get('*',(req,res) =>{
+  app.use(express.static('build'))
+
+}) 
+ 
+
+
+
 
 
 app.listen(port, () => {
